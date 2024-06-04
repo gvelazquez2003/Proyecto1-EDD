@@ -1,11 +1,13 @@
 package proyecto1;
 
 public class Letter {
+    int id;
     char character;
     boolean visited = false;
     LinkedList<Letter> adjLetters;
     
-    public Letter(char character){
+    public Letter(int id, char character){
+        this.id = id;
         this.character = character;
         this.adjLetters = new LinkedList<>();
     }
