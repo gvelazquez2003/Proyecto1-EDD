@@ -1,6 +1,5 @@
 package proyecto1;
 
-
 public class Letter {
     char character;
     boolean visited = false;
